@@ -44,7 +44,7 @@
 <section id="topbar" class="d-none d-lg-block">
     <div class="container clearfix">
         <div class="contact-info float-left" style="color: #ff4cb8d4">
-            <i class="fa fa-envelope-o" style="color: #ff4cb8d4"></i> <a href="mailto:contact@example.com" style="color: #ff4cb8d4">contact@example.com</a>
+            <i class="fa fa-envelope-o" style="color: #ff4cb8d4"></i> <a href="{{asset('index1')}}" style="color: #ff4cb8d4">contact@example.com</a>
             <i class="fa fa-phone"></i> 05 49 13 09 92
         </div>
         <div class="social-links float-right">
@@ -532,37 +532,10 @@
         </div>
 
         <div class="container mb-4">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22864.11283411948!2d-73.96468908098944!3d40.630720240038435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbg!4v1540447494452" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.3107145340514!2d2.34622181549333!3d48.87135300774823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e15d56e822d%3A0x33206b920ac4380e!2s8%20Rue%20du%20Faubourg%20Poissonni%C3%A8re%2C%2075010%20Paris%2C%20France!5e0!3m2!1sfr!2stn!4v1574866358684!5m2!1sfr!2stn" width="1000" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe></iframe>
         </div>
 
-        <div class="container">
-            <div class="form">
-                <div id="sendmessage">Your message has been sent. Thank you!</div>
-                <div id="errormessage"></div>
-                <form action="" method="post" role="form" class="contactForm">
-                    <div class="form-row">
-                        <div class="form-group col-md-6">
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                            <div class="validation"></div>
-                        </div>
-                        <div class="form-group col-md-6">
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                            <div class="validation"></div>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                        <div class="validation"></div>
-                    </div>
-                    <div class="form-group">
-                        <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                        <div class="validation"></div>
-                    </div>
-                    <div class="text-center"><button type="submit">Send Message</button></div>
-                </form>
-            </div>
 
-        </div>
     </section><!-- #contact -->
 
 </main>
