@@ -44,7 +44,7 @@
 <section id="topbar" class="d-none d-lg-block">
     <div class="container clearfix">
         <div class="contact-info float-left" style="color: #ff4cb8d4">
-            <i class="fa fa-envelope-o" style="color: #ff4cb8d4"></i> <a href="{{asset('index1')}}" style="color: #ff4cb8d4">contact@example.com</a>
+            <i class="fa fa-envelope-o" style="color: #ff4cb8d4"></i> <a href="{{asset('/envoyer')}}" type="btn" style="color: #ff4cb8d4">contact@example.com</a>
             <i class="fa fa-phone"></i> 05 49 13 09 92
         </div>
         <div class="social-links float-right">
@@ -104,11 +104,11 @@
     </div>
 
     <div id="intro-carousel" class="owl-carousel" >
-        <div class="item" style="background-image: url('img/intro-carousel/1.jpg');"></div>
-        <div class="item" style="background-image: url('img/intro-carousel/2.jpg');"></div>
-        <div class="item" style="background-image: url('img/intro-carousel/3.jpg');"></div>
-        <div class="item" style="background-image: url('img/intro-carousel/4.jpg');"></div>
-        <div class="item" style="background-image: url('img/intro-carousel/5.jpg');"></div>
+        <div class="item" style="background-image: url('{{asset('')}}/template/img/intro-carousel/paris1.png');"></div>
+        <div class="item" style="background-image: url('{{asset('')}}/template/img/intro-carousel/paris2.jpg');"></div>
+        <div class="item" style="background-image: url('{{asset('')}}/template/img/intro-carousel/paris3.jpg');"></div>
+        <div class="item" style="background-image: url('{{asset('')}}/template/img/intro-carousel/paris4.jpg');"></div>
+        <div class="item" style="background-image: url('{{asset('')}}/template/img/intro-carousel/paris5.jpg');"></div>
     </div>
 
 </section><!-- #intro -->
@@ -222,7 +222,7 @@
     <section id="portfolio" class="wow fadeInUp">
         <div class="container">
             <div class="section-header">
-                <h2>Our Portfolio</h2>
+                <h2>Autres services</h2>
                 <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
             </div>
         </div>
@@ -498,8 +498,8 @@
     <section id="contact" class="wow fadeInUp">
         <div class="container">
             <div class="section-header">
-                <h2>Contact Us</h2>
-                <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
+                <h2>Contact </h2>
+                <p><b>N'hésitez pas de nous contacter,Nous sommes toujours là pour vous répondre. </b></p>
             </div>
 
             <div class="row contact-info">
@@ -507,7 +507,7 @@
                 <div class="col-md-4">
                     <div class="contact-address">
                         <i class="ion-ios-location-outline"></i>
-                        <h3>Address</h3>
+                        <h3>Adresse</h3>
                         <address>8 Rue du Faubourg Poissonnière 75010 Paris</address>
                     </div>
                 </div>
@@ -515,7 +515,7 @@
                 <div class="col-md-4">
                     <div class="contact-phone">
                         <i class="ion-ios-telephone-outline"></i>
-                        <h3>Phone Number</h3>
+                        <h3>Téléphone</h3>
                         <p><a href="tel:05 49 13 09 22">05 49 13 09 92</a></p>
                     </div>
                 </div>
@@ -524,7 +524,7 @@
                     <div class="contact-email">
                         <i class="ion-ios-email-outline"></i>
                         <h3>Email</h3>
-                        <p><a href="mailto:info@example.com">info@example.com</a></p>
+                        <p><a href="mailto:info@example.com">info@exemple.com</a></p>
                     </div>
                 </div>
 
@@ -540,13 +540,14 @@
 
 </main>
 
+
 <!--==========================
   Footer
 ============================-->
 <footer id="footer">
     <div class="container">
         <div class="copyright">
-            Copyright &copy; <strong>2019 1wayDev</strong>. All Rights Reserved.
+            Copyright &copy; <strong>2019 1WayDev</strong>. All Rights Reserved.
         </div>
         <div class="credits">
             <!--
